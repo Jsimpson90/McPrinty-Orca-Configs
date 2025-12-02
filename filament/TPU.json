@@ -1,0 +1,66 @@
+{
+    "default_filament_colour": [
+        "#C6FFC6"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_max_speed": [
+        "100"
+    ],
+    "fan_min_speed": [
+        "90"
+    ],
+    "filament_end_gcode": [
+        "; filament end gcode"
+    ],
+    "filament_max_volumetric_speed": [
+        "3.4"
+    ],
+    "filament_retraction_length": [
+        "0.5"
+    ],
+    "filament_retraction_speed": [
+        "25"
+    ],
+    "filament_deretraction_speed": [
+        "25"
+    ],
+    "filament_settings_id": [
+        "TPU"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\nSET_GCODE_VARIABLE MACRO=PRINTER_PARAM VARIABLE=post_cool_level VALUE=50\nSAFE_WIPE_V2"
+    ],
+    "filament_vendor": [
+        "McPrinty"
+    ],
+    "from": "User",
+    "inherits": "Creality Generic TPU",
+    "is_custom_defined": "0",
+    "name": "TPU",
+    "nozzle_temperature": [
+        "245"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "245"
+    ],
+    "nozzle_temperature_range_low": [
+        "220"
+    ],
+    "nozzle_temperature_range_high": [
+        "250"
+    ],
+    "pressure_advance": [
+        "0.035"
+    ],
+    "slow_down_layer_time": [
+        "8"
+    ],
+    "version": "1.9.0.2",
+    "type": "filament",
+    "instantiation": "true",
+    "compatible_printers": [
+        "My-K1C-0.4-Noz"
+    ]
+}

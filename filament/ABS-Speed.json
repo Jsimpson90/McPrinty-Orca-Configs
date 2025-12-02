@@ -1,0 +1,77 @@
+{
+    "activate_chamber_temp_control": "1",
+    "chamber_temperature": "50",
+    "default_filament_colour": [
+        "#29FEC4"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_max_speed": [
+        "70"
+    ],
+    "fan_min_speed": [
+        "40"
+    ],
+    "filament_end_gcode": [
+        "; filament end gcode"
+    ],
+    "filament_flow_ratio": [
+        "0.97"
+    ],
+    "filament_max_volumetric_speed": [
+        "20"
+    ],
+    "filament_settings_id": [
+        "ABS-Speed"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\nSET_GCODE_VARIABLE MACRO=PRINTER_PARAM VARIABLE=post_cool_level VALUE=0\nSAFE_WIPE_V2"
+    ],
+    "filament_vendor": [
+        "McPrinty"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "100"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "100"
+    ],
+    "inherits": "Creality Generic ABS",
+    "is_custom_defined": "0",
+    "name": "ABS-Speed",
+    "nozzle_temperature": [
+        "275"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "270"
+    ],
+    "nozzle_temperature_range_high": [
+        "280"
+    ],
+    "pressure_advance": [
+        "0.035"
+    ],
+    "filament_retraction_length": [
+        "0.8"
+    ],
+    "filament_retraction_speed": [
+        "40"
+    ],
+    "filament_deretraction_speed": [
+        "40"
+    ],
+    "slow_down_layer_time": [
+        "4"
+    ],
+    "slow_down_min_speed": [
+        "100"
+    ],
+    "version": "1.9.0.2",
+    "type": "filament",
+    "instantiation": "true",
+    "compatible_printers": [
+        "My-K1C-0.4-Noz"
+    ]
+}
