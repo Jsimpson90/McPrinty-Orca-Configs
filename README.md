@@ -120,8 +120,6 @@ Each profile has a `-NO-SUPPORTS` variant with supports disabled.
 ### Filament Profiles
 
 - **PLA**: 41 color variants (White, Black, Red, Blue, Green, etc.)
-- **PLA-Speed**: Higher flow rates for faster printing
-- **PLA-Super-Speed**: Maximum speed PLA settings
 - **CF-PLA**: Carbon fiber reinforced PLA
 - **ABS / ABS-Speed**: Standard and speed ABS profiles
 - **ASA**: UV-resistant outdoor filament
